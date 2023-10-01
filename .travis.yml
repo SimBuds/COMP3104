@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
+  - "14"  # Specify a version known to work with your system libraries
 deploy:
   provider: pages
   skip_cleanup: true
