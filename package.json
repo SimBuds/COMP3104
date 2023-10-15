@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimBuds/COMP3104"
+  },
   "dependencies": {
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
