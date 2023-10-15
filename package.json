@@ -33,6 +33,10 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimBuds/COMP3104"
+  },
   "keywords": [],
   "author": "Casey Hsu",
   "license": "ISC"
