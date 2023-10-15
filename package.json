@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimBuds/COMP3104"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
