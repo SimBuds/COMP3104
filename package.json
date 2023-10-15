@@ -3,14 +3,41 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimBuds/COMP3104"
   },
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "travis": "^0.1.1",
+    "web-vitals": "^3.5.0",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SimBuds/COMP3104"
   },
   "keywords": [],
-  "author": "",
+  "author": "Casey Hsu",
   "license": "ISC"
 }
