@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "14"  # Specify a version known to work with your system libraries
+  - "16"
 deploy:
   provider: pages
   skip_cleanup: true
